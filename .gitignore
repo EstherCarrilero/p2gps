@@ -1,3 +1,6 @@
+# Deployment files
+./deploy/aci-multi-container.yml
+
 #Visual Studio files
 *.o
 *.d
@@ -64,4 +67,3 @@ $RECYCLE.BIN/
 buildinfo.properties
 
 _site
-
