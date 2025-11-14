@@ -1,4 +1,4 @@
-FROM temurin:8-jre-jammy 
+FROM temurin:8-jre 
  
 RUN mkdir -p /usr/local/app 
  
