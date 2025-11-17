@@ -47,7 +47,7 @@ properties:
   imageRegistryCredentials: 
     - server: acrgps867w.azurecr.io 
       username: tokenPull 
-      password: ${{ secrets.REG_PASS }} #al pasar a github actions lo ocultaremos. 
+      password: ${{secrets.REG_PASS}}
   ipAddress: 
     type: Public 
     ports: 
