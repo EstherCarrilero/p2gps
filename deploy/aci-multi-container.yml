@@ -6,7 +6,7 @@ properties:
   containers: 
     - name: mongo 
       properties: 
-        image: acrgps867w.azurecr.io/p2gps:db 
+        image: acrgps867w.azurecr.io/p2gps25:db 
         resources: 
           requests: 
             cpu: 0.15 
@@ -19,7 +19,7 @@ properties:
             mountPath: /data/db 
     - name: order 
       properties: 
-        image: acrgps867w.azurecr.io/p2gps:order 
+        image: acrgps867w.azurecr.io/p2gps25:order 
         resources: 
           requests: 
             cpu: 0.3 
@@ -35,7 +35,7 @@ properties:
             value: ordering 
     - name: web 
       properties: 
-        image: acrgps867w.azurecr.io/p2gps:web 
+        image: acrgps867w.azurecr.io/p2gps25:web 
         resources: 
           requests: 
             cpu: 0.25 
